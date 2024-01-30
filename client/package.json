@@ -1,0 +1,14 @@
+{
+  "name": "just-one-client",
+  "module": "index.ts",
+  "type": "module",
+  "scripts": {
+    "build": "bun build ./index.ts --outdir ../build --minify"
+  },
+  "devDependencies": {
+    "bun-types": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  }
+}
